@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 
@@ -10,10 +11,11 @@ public class VendingMachine
 	// A Scanner object to get keyboard input.
 	private Scanner keypad;
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws FileNotFoundException
 		{
-
-
+		Cashier.changeIn();
+		InventoryManager.averagePojo();
+		
 		}
 
 	}
