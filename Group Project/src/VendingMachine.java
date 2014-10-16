@@ -1,7 +1,6 @@
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-
 public class VendingMachine
 	{
 	// A Cashier object for the Vending Machine.
@@ -13,8 +12,8 @@ public class VendingMachine
 	
 	public static void main(String[] args) throws FileNotFoundException
 		{
-		Cashier.changeIn();
-		InventoryManager.averagePojo();
+		Cashier.Cashier();
+		Product.averagePojo();
 		
 		}
 
